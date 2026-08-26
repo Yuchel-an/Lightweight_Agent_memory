@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Memory Demo</title>
+    <link rel="stylesheet" href="/static/stylesheet.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 左侧：聊天 -->
+        <div class="chat-section">
+            <div class="chat-header">
+                <h2>Agent 记忆演示</h2>
+                <button id="clear-btn">清空记忆</button>
+            </div>
+            <div class="chat-messages" id="chat-messages"></div>
+            <div class="chat-input-area">
+                <input type="text" id="user-input" placeholder="输入消息..." autofocus>
+                <button id="send-btn">发送</button>
+            </div>
+        </div>
+
+        <!-- 右侧：三个面板 -->
+        <div class="panel-section">
+            <div class="panel">
+                <h3>抽取的事实（本轮）</h3>
+                <ul id="extracted-facts"><li>（空）</li></ul>
+            </div>
+            <div class="panel">
+                <h3>短期记忆</h3>
+                <ul id="short-term"><li>（空）</li></ul>
+            </div>
+            <div class="panel">
+                <h3>长期记忆</h3>
+                <ul id="long-term"><li>（空）</li></ul>
+            </div>
+        </div>
+    </div>
+    <script src="/static/app.js"></script>
+</body>
+</html>
