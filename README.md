@@ -1,8 +1,5 @@
 # Lightweight_Agent_memory
 
-给你写了一个标准、干净、适合 GitHub 展示的 README.md，中英文混排风格偏技术文档，直接复制到项目根目录即可：
-
-markdown
 # 🧠 Agent Structured Memory System — MVP Demo
 
 
